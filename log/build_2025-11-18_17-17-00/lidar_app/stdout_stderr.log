@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/lidar_app/lidar_app.egg-info
+writing ../../build/lidar_app/lidar_app.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_app/lidar_app.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_app/lidar_app.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_app/lidar_app.egg-info/requires.txt
+writing top-level names to ../../build/lidar_app/lidar_app.egg-info/top_level.txt
+writing manifest file '../../build/lidar_app/lidar_app.egg-info/SOURCES.txt'
+reading manifest file '../../build/lidar_app/lidar_app.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_app/lidar_app.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ir-t11/ir_ws/src/build/lidar_app/build
+creating /home/ir-t11/ir_ws/src/build/lidar_app/build/lib
+creating /home/ir-t11/ir_ws/src/build/lidar_app/build/lib/lidar_app
+copying lidar_app/__init__.py -> /home/ir-t11/ir_ws/src/build/lidar_app/build/lib/lidar_app
+copying lidar_app/decision_subscriber.py -> /home/ir-t11/ir_ws/src/build/lidar_app/build/lib/lidar_app
+copying lidar_app/lidar_publisher.py -> /home/ir-t11/ir_ws/src/build/lidar_app/build/lib/lidar_app
+running install
+running install_lib
+creating /home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages/lidar_app
+copying /home/ir-t11/ir_ws/src/build/lidar_app/build/lib/lidar_app/__init__.py -> /home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages/lidar_app
+copying /home/ir-t11/ir_ws/src/build/lidar_app/build/lib/lidar_app/decision_subscriber.py -> /home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages/lidar_app
+copying /home/ir-t11/ir_ws/src/build/lidar_app/build/lib/lidar_app/lidar_publisher.py -> /home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages/lidar_app
+byte-compiling /home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages/lidar_app/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages/lidar_app/decision_subscriber.py to decision_subscriber.cpython-310.pyc
+byte-compiling /home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages/lidar_app/lidar_publisher.py to lidar_publisher.cpython-310.pyc
+running install_data
+creating /home/ir-t11/ir_ws/src/install/lidar_app/share/ament_index
+creating /home/ir-t11/ir_ws/src/install/lidar_app/share/ament_index/resource_index
+creating /home/ir-t11/ir_ws/src/install/lidar_app/share/ament_index/resource_index/packages
+copying resource/lidar_app -> /home/ir-t11/ir_ws/src/install/lidar_app/share/ament_index/resource_index/packages
+copying package.xml -> /home/ir-t11/ir_ws/src/install/lidar_app/share/lidar_app
+running install_egg_info
+Copying ../../build/lidar_app/lidar_app.egg-info to /home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages/lidar_app-0.0.0-py3.10.egg-info
+running install_scripts
+Installing decision_subscriber script to /home/ir-t11/ir_ws/src/install/lidar_app/lib/lidar_app
+Installing lidar_publisher script to /home/ir-t11/ir_ws/src/install/lidar_app/lib/lidar_app
+writing list of installed files to '/home/ir-t11/ir_ws/src/build/lidar_app/install.log'

@@ -1,0 +1,75 @@
+[0.289s] Invoking command in '/home/ir-t11/ir_ws/src/build/osr_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ir-t11/ir_ws/install/my_py_pkg:/home/ir-t11/ir_ws/install/lidar_app:/opt/ros/humble /usr/bin/cmake --build /home/ir-t11/ir_ws/src/build/osr_gazebo -- -j12 -l12
+[0.317s] [35m[1mConsolidate compiler generated dependencies of target osr_controller[0m
+[0.330s] [100%] Built target osr_controller
+[0.338s] Invoked command in '/home/ir-t11/ir_ws/src/build/osr_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ir-t11/ir_ws/install/my_py_pkg:/home/ir-t11/ir_ws/install/lidar_app:/opt/ros/humble /usr/bin/cmake --build /home/ir-t11/ir_ws/src/build/osr_gazebo -- -j12 -l12
+[0.339s] Invoking command in '/home/ir-t11/ir_ws/src/build/osr_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ir-t11/ir_ws/install/my_py_pkg:/home/ir-t11/ir_ws/install/lidar_app:/opt/ros/humble /usr/bin/cmake --install /home/ir-t11/ir_ws/src/build/osr_gazebo
+[0.343s] -- Install configuration: ""
+[0.343s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//launch
+[0.343s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//launch/rviz.launch.py
+[0.343s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//launch/empty_world_simplified.launch.py
+[0.343s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//launch/rviz_simplified.launch.py
+[0.343s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//launch/empty_world.launch.py
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//config
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//config/controller_velocity.yaml
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//urdf
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//urdf/osr.urdf.xacro
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//urdf/insert_transmission.urdf.xacro
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//urdf/gazebo.urdf.xacro
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//urdf/osr_simplified.urdf.xacro
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/turn_left_test.stl
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/arm.stl
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/rockerbogie_front_1.stl
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/wheel_middle_left.stl
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/rocker_bogie_link_rear.stl
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/wheel.stl
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/rockerbogie_middle_1.stl
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/wheel_link_left_2.stl
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/turn_R.stl
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/body.stl
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/rocker_bogie_link_front.stl
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/rocker_bogie_link_middle.stl
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/turn_L.stl
+[0.344s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/box_link.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/wheel_link_right_2.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/body_axis.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/turn_right_test.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/rocker_bogie_final.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/turn_left_test.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/arm.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/rockerbogie_front_1.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/wheel_middle_left.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/rocker_bogie_link_rear.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/wheel.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/rockerbogie_middle_1.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/wheel_link_left_2.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/turn_R.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/body.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/rocker_bogie_link_front.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/rocker_bogie_link_middle.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/turn_L.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/box_link.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/wheel_link_right_2.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/body_axis.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/turn_right_test.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/rocker_bogie_final.stl
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//rviz
+[0.345s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//rviz/rviz_settings.rviz
+[0.346s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/lib/osr_gazebo/osr_controller
+[0.346s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/ament_index/resource_index/package_run_dependencies/osr_gazebo
+[0.346s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/ament_index/resource_index/parent_prefix_path/osr_gazebo
+[0.346s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/environment/ament_prefix_path.sh
+[0.346s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/environment/ament_prefix_path.dsv
+[0.346s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/environment/path.sh
+[0.346s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/environment/path.dsv
+[0.346s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/local_setup.bash
+[0.346s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/local_setup.sh
+[0.346s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/local_setup.zsh
+[0.346s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/local_setup.dsv
+[0.346s] -- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/package.dsv
+[0.346s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/ament_index/resource_index/packages/osr_gazebo
+[0.346s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/cmake/osr_gazeboConfig.cmake
+[0.346s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/cmake/osr_gazeboConfig-version.cmake
+[0.346s] -- Up-to-date: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/package.xml
+[0.347s] Invoked command in '/home/ir-t11/ir_ws/src/build/osr_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ir-t11/ir_ws/install/my_py_pkg:/home/ir-t11/ir_ws/install/lidar_app:/opt/ros/humble /usr/bin/cmake --install /home/ir-t11/ir_ws/src/build/osr_gazebo

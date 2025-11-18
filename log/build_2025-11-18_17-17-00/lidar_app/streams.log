@@ -1,0 +1,41 @@
+[0.545s] Invoking command in '/home/ir-t11/ir_ws/src/session4/lidar_app': PYTHONPATH=/home/ir-t11/ir_ws/src/build/lidar_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_app build --build-base /home/ir-t11/ir_ws/src/build/lidar_app/build install --record /home/ir-t11/ir_ws/src/build/lidar_app/install.log --single-version-externally-managed install_data
+[0.676s] running egg_info
+[0.676s] creating ../../build/lidar_app/lidar_app.egg-info
+[0.676s] writing ../../build/lidar_app/lidar_app.egg-info/PKG-INFO
+[0.676s] writing dependency_links to ../../build/lidar_app/lidar_app.egg-info/dependency_links.txt
+[0.677s] writing entry points to ../../build/lidar_app/lidar_app.egg-info/entry_points.txt
+[0.677s] writing requirements to ../../build/lidar_app/lidar_app.egg-info/requires.txt
+[0.677s] writing top-level names to ../../build/lidar_app/lidar_app.egg-info/top_level.txt
+[0.677s] writing manifest file '../../build/lidar_app/lidar_app.egg-info/SOURCES.txt'
+[0.677s] reading manifest file '../../build/lidar_app/lidar_app.egg-info/SOURCES.txt'
+[0.678s] writing manifest file '../../build/lidar_app/lidar_app.egg-info/SOURCES.txt'
+[0.678s] running build
+[0.678s] running build_py
+[0.678s] creating /home/ir-t11/ir_ws/src/build/lidar_app/build
+[0.678s] creating /home/ir-t11/ir_ws/src/build/lidar_app/build/lib
+[0.678s] creating /home/ir-t11/ir_ws/src/build/lidar_app/build/lib/lidar_app
+[0.678s] copying lidar_app/__init__.py -> /home/ir-t11/ir_ws/src/build/lidar_app/build/lib/lidar_app
+[0.678s] copying lidar_app/decision_subscriber.py -> /home/ir-t11/ir_ws/src/build/lidar_app/build/lib/lidar_app
+[0.678s] copying lidar_app/lidar_publisher.py -> /home/ir-t11/ir_ws/src/build/lidar_app/build/lib/lidar_app
+[0.678s] running install
+[0.678s] running install_lib
+[0.679s] creating /home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages/lidar_app
+[0.679s] copying /home/ir-t11/ir_ws/src/build/lidar_app/build/lib/lidar_app/__init__.py -> /home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages/lidar_app
+[0.679s] copying /home/ir-t11/ir_ws/src/build/lidar_app/build/lib/lidar_app/decision_subscriber.py -> /home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages/lidar_app
+[0.679s] copying /home/ir-t11/ir_ws/src/build/lidar_app/build/lib/lidar_app/lidar_publisher.py -> /home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages/lidar_app
+[0.679s] byte-compiling /home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages/lidar_app/__init__.py to __init__.cpython-310.pyc
+[0.679s] byte-compiling /home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages/lidar_app/decision_subscriber.py to decision_subscriber.cpython-310.pyc
+[0.680s] byte-compiling /home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages/lidar_app/lidar_publisher.py to lidar_publisher.cpython-310.pyc
+[0.680s] running install_data
+[0.680s] creating /home/ir-t11/ir_ws/src/install/lidar_app/share/ament_index
+[0.680s] creating /home/ir-t11/ir_ws/src/install/lidar_app/share/ament_index/resource_index
+[0.680s] creating /home/ir-t11/ir_ws/src/install/lidar_app/share/ament_index/resource_index/packages
+[0.680s] copying resource/lidar_app -> /home/ir-t11/ir_ws/src/install/lidar_app/share/ament_index/resource_index/packages
+[0.680s] copying package.xml -> /home/ir-t11/ir_ws/src/install/lidar_app/share/lidar_app
+[0.680s] running install_egg_info
+[0.681s] Copying ../../build/lidar_app/lidar_app.egg-info to /home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages/lidar_app-0.0.0-py3.10.egg-info
+[0.682s] running install_scripts
+[0.697s] Installing decision_subscriber script to /home/ir-t11/ir_ws/src/install/lidar_app/lib/lidar_app
+[0.697s] Installing lidar_publisher script to /home/ir-t11/ir_ws/src/install/lidar_app/lib/lidar_app
+[0.697s] writing list of installed files to '/home/ir-t11/ir_ws/src/build/lidar_app/install.log'
+[0.712s] Invoked command in '/home/ir-t11/ir_ws/src/session4/lidar_app' returned '0': PYTHONPATH=/home/ir-t11/ir_ws/src/build/lidar_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_app build --build-base /home/ir-t11/ir_ws/src/build/lidar_app/build install --record /home/ir-t11/ir_ws/src/build/lidar_app/install.log --single-version-externally-managed install_data

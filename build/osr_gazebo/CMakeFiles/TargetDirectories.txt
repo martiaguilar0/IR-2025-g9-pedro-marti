@@ -1,0 +1,10 @@
+/home/ir-t11/ir_ws/src/build/osr_gazebo/CMakeFiles/uninstall.dir
+/home/ir-t11/ir_ws/src/build/osr_gazebo/CMakeFiles/osr_gazebo_uninstall.dir
+/home/ir-t11/ir_ws/src/build/osr_gazebo/CMakeFiles/osr_controller.dir
+/home/ir-t11/ir_ws/src/build/osr_gazebo/CMakeFiles/test.dir
+/home/ir-t11/ir_ws/src/build/osr_gazebo/CMakeFiles/edit_cache.dir
+/home/ir-t11/ir_ws/src/build/osr_gazebo/CMakeFiles/rebuild_cache.dir
+/home/ir-t11/ir_ws/src/build/osr_gazebo/CMakeFiles/list_install_components.dir
+/home/ir-t11/ir_ws/src/build/osr_gazebo/CMakeFiles/install.dir
+/home/ir-t11/ir_ws/src/build/osr_gazebo/CMakeFiles/install/local.dir
+/home/ir-t11/ir_ws/src/build/osr_gazebo/CMakeFiles/install/strip.dir

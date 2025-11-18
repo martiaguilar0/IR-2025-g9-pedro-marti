@@ -1,0 +1,124 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2_geometry_msgs: 0.25.13 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ir-t11/ir_ws/src/build/osr_gazebo
+[ 50%] [32mBuilding CXX object CMakeFiles/osr_controller.dir/src/osr_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX executable osr_controller[0m
+[100%] Built target osr_controller
+-- Install configuration: ""
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//launch
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//launch/rviz.launch.py
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//launch/empty_world_simplified.launch.py
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//launch/rviz_simplified.launch.py
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//launch/empty_world.launch.py
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//config
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//config/controller_velocity.yaml
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//urdf
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//urdf/osr.urdf.xacro
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//urdf/insert_transmission.urdf.xacro
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//urdf/gazebo.urdf.xacro
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//urdf/osr_simplified.urdf.xacro
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/turn_left_test.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/arm.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/rockerbogie_front_1.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/wheel_middle_left.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/rocker_bogie_link_rear.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/wheel.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/rockerbogie_middle_1.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/wheel_link_left_2.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/turn_R.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/body.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/rocker_bogie_link_front.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/rocker_bogie_link_middle.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/turn_L.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/box_link.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/wheel_link_right_2.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/body_axis.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/turn_right_test.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//meshes/rocker_bogie_final.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/turn_left_test.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/arm.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/rockerbogie_front_1.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/wheel_middle_left.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/rocker_bogie_link_rear.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/wheel.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/rockerbogie_middle_1.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/wheel_link_left_2.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/turn_R.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/body.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/rocker_bogie_link_front.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/rocker_bogie_link_middle.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/turn_L.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/box_link.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/wheel_link_right_2.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/body_axis.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/turn_right_test.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//simplified_meshes/rocker_bogie_final.stl
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//rviz
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo//rviz/rviz_settings.rviz
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/lib/osr_gazebo/osr_controller
+-- Set runtime path of "/home/ir-t11/ir_ws/src/install/osr_gazebo/lib/osr_gazebo/osr_controller" to ""
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/ament_index/resource_index/package_run_dependencies/osr_gazebo
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/ament_index/resource_index/parent_prefix_path/osr_gazebo
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/environment/ament_prefix_path.sh
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/environment/ament_prefix_path.dsv
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/environment/path.sh
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/environment/path.dsv
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/local_setup.bash
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/local_setup.sh
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/local_setup.zsh
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/local_setup.dsv
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/package.dsv
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/ament_index/resource_index/packages/osr_gazebo
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/cmake/osr_gazeboConfig.cmake
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/cmake/osr_gazeboConfig-version.cmake
+-- Installing: /home/ir-t11/ir_ws/src/install/osr_gazebo/share/osr_gazebo/package.xml

@@ -1,0 +1,22 @@
+[0.537s] Invoking command in '/home/ir-t11/ir_ws/src/session4/lidar_app': PYTHONPATH=/home/ir-t11/ir_ws/src/build/lidar_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_app build --build-base /home/ir-t11/ir_ws/src/build/lidar_app/build install --record /home/ir-t11/ir_ws/src/build/lidar_app/install.log --single-version-externally-managed install_data
+[0.664s] running egg_info
+[0.664s] writing ../../build/lidar_app/lidar_app.egg-info/PKG-INFO
+[0.664s] writing dependency_links to ../../build/lidar_app/lidar_app.egg-info/dependency_links.txt
+[0.664s] writing entry points to ../../build/lidar_app/lidar_app.egg-info/entry_points.txt
+[0.664s] writing requirements to ../../build/lidar_app/lidar_app.egg-info/requires.txt
+[0.664s] writing top-level names to ../../build/lidar_app/lidar_app.egg-info/top_level.txt
+[0.665s] reading manifest file '../../build/lidar_app/lidar_app.egg-info/SOURCES.txt'
+[0.666s] writing manifest file '../../build/lidar_app/lidar_app.egg-info/SOURCES.txt'
+[0.666s] running build
+[0.666s] running build_py
+[0.666s] running install
+[0.666s] running install_lib
+[0.667s] running install_data
+[0.667s] running install_egg_info
+[0.668s] removing '/home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages/lidar_app-0.0.0-py3.10.egg-info' (and everything under it)
+[0.668s] Copying ../../build/lidar_app/lidar_app.egg-info to /home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages/lidar_app-0.0.0-py3.10.egg-info
+[0.668s] running install_scripts
+[0.682s] Installing decision_subscriber script to /home/ir-t11/ir_ws/src/install/lidar_app/lib/lidar_app
+[0.682s] Installing lidar_publisher script to /home/ir-t11/ir_ws/src/install/lidar_app/lib/lidar_app
+[0.682s] writing list of installed files to '/home/ir-t11/ir_ws/src/build/lidar_app/install.log'
+[0.699s] Invoked command in '/home/ir-t11/ir_ws/src/session4/lidar_app' returned '0': PYTHONPATH=/home/ir-t11/ir_ws/src/build/lidar_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ir-t11/ir_ws/src/install/lidar_app/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_app build --build-base /home/ir-t11/ir_ws/src/build/lidar_app/build install --record /home/ir-t11/ir_ws/src/build/lidar_app/install.log --single-version-externally-managed install_data
