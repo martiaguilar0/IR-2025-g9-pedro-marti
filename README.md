@@ -45,6 +45,7 @@ How to run the code:
 
 ________________________________________________________________________________________
 Repository structure:
+```
 ir_ws/
 ├── src/
 │   ├── session1/                     # ROS 2 basic scripts (.bash and Python)
