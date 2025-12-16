@@ -229,3 +229,13 @@ In short, these are the key aspects of the logic behind our algorithm.
 The flowchart is shown below:
 ![Decission-making function flowchart](images/flux_diagram.jpg)
 ________________________________________________________________________________________
+## Result
+
+Below, the three videos corresponding to the three maps in which the robot had to navigate are attached:
+- [MAP 1](https://drive.google.com/file/d/1nYyqDzvi8mtQTIMkQfssEf0v9_7DjhVQ/view?usp=drive_link)
+- [MAP 2]([https://drive.google.com/file/d/1nYyqDzvi8mtQTIMkQfssEf0v9_7DjhVQ/view?usp=drive_link](https://drive.google.com/file/d/1A6zLtXE1eb_eaSEK17IZ9SBD1vQg3TDD/view?usp=drive_link)
+- [MAP 3]([https://drive.google.com/file/d/1nYyqDzvi8mtQTIMkQfssEf0v9_7DjhVQ/view?usp=drive_link](https://drive.google.com/file/d/15Qs5gqL2QqHEoCtFIpaIg4iBgZJS7bDl/view?usp=drive_link)
+
+________________________________________________________________________________________
+## Conclusions
+
