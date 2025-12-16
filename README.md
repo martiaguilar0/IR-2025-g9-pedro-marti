@@ -225,4 +225,7 @@ The comparation function implements the following logic. First, the error is cal
 ```
 
 In short, these are the key aspects of the logic behind our algorithm.
+
+The flowchart is shown below:
+![Decission-making function flowchart](images/flux_diagram.jpg)
 ________________________________________________________________________________________
