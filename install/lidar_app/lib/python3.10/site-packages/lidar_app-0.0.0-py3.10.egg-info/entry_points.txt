@@ -1,4 +1,0 @@
-[console_scripts]
-decision_subscriber = lidar_app.decision_subscriber:main
-lidar_publisher = lidar_app.lidar_publisher:main
-
