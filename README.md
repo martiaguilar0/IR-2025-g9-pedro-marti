@@ -18,6 +18,32 @@ This repository contains all the code and files developed during the lab and pro
   - Session 6: Project
   
   - Session 7: Project
+_______________________________________________________________________________________
+## Repository structure:
+```
+ir_ws/
+├── src/
+│   ├── session1/                     # ROS 2 basic scripts (.bash and Python)
+│   ├── session2/                     # URDF description and robot design
+│   │   ├── my_robot.urdf             # Differential robot model
+│   │   └── project/                  # JPL Rover with IMU and LiDAR
+│   │       └── osr_gazebo/
+│   │           └── urdf/osr_simplified.urdf.xacro
+│   ├── session3/                     # Robot launch and simulation
+│   │   ├── my_robot_description/     # URDF, RViz config, and launch files
+│   │   │   ├── urdf/                 # URDF model with inertial and collision data
+│   │   │   ├── rviz/                 # RViz visualization configuration
+│   │   │   └── launch/               # Launch scripts for RViz and Gazebo
+│   │   └── my_robot_bringup/         # Launch file for combined Gazebo + RViz
+│   ├── session4/                     # Publisher and subscriber ROS 2 nodes
+│   │   ├── src/                      # Node scripts (publisher.py, subscriber.py)
+│   │   └── launch/                   # Launch file for robot with sensors
+│   └── project/                      # Contains all the files of the project
+│       ├── Project/                  # Project package
+│       ├── osr_bringup/              # Launch file
+│       └── osr_gazebo/               # Launch file
+```
+
 ________________________________________________________________________________________
 
 ## Instructions
@@ -171,35 +197,32 @@ self.right = sector_mean(self.ranges, right_index, sector_width)
 self.left  = sector_mean(self.ranges, left_index, sector_width)
 ```
 
-The decission-making function it's called each 0.1 secconds, as it is fixed in the node class:
+The decission-making function (comparation) it's called each 0.1 secconds, as it is fixed in the node class:
 ```python
 self.timer = self.create_timer(0.1, self.comparation)
 ```
 
+The comparation function implements the following logic. First, the error is calculated as the difference between the left and right distances. Then, the compute method of the PID returns a value, which is stored in the variable correction. If the robot's front is far enough from a wall it moves at a 0.6 of linear speed, and the angular speed corresponds to correction. This correction in the angular speed allows the robot to stay approximately in the center of the corridor. In the case that the robot detect an object, there are two possibilites: if the left distance is bigger than right it will rotate a constant angular speed of -1.0, and viceversa for the other case. However, during the rotation movement it has a low linear speed because we observed that can avoid situations in which the robot gets stuck.  
+
+
+```python
+    def comparation(self):
+        self.get_logger().info(f"R:{self.right:.2f} L:{self.left:.2f} F:{self.front:.2f}")
+
+        # Control PID lateral
+        error = self.left - self.right
+        correction = self.pid.compute(error)
+
+        # Mover el robot
+        if self.front < 1.3:
+            if self.right>self.left:
+                self.move_robot(0.1, -1.0)
+            else:
+                self.move_robot(0.1, 1.0)
+               
+        else:
+            self.move_robot(0.6, correction)
+```
+
+In short, these are the key aspects of the logic behind our algorithm.
 ________________________________________________________________________________________
-## Repository structure:
-```
-ir_ws/
-├── src/
-│   ├── session1/                     # ROS 2 basic scripts (.bash and Python)
-│   ├── session2/                     # URDF description and robot design
-│   │   ├── my_robot.urdf             # Differential robot model
-│   │   └── project/                  # JPL Rover with IMU and LiDAR
-│   │       └── osr_gazebo/
-│   │           └── urdf/osr_simplified.urdf.xacro
-│   ├── session3/                     # Robot launch and simulation
-│   │   ├── my_robot_description/     # URDF, RViz config, and launch files
-│   │   │   ├── urdf/                 # URDF model with inertial and collision data
-│   │   │   ├── rviz/                 # RViz visualization configuration
-│   │   │   └── launch/               # Launch scripts for RViz and Gazebo
-│   │   └── my_robot_bringup/         # Launch file for combined Gazebo + RViz
-│   ├── session4/                     # Publisher and subscriber ROS 2 nodes
-│   │   ├── src/                      # Node scripts (publisher.py, subscriber.py)
-│   │   └── launch/                   # Launch file for robot with sensors
-│   └── project/                      # Contains all the files of the project
-│       ├── Project/                  # Project package
-│       ├── osr_bringup/              # Launch file
-│       └── osr_gazebo/               # Launch file
-```
-
-
