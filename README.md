@@ -242,3 +242,10 @@ Below, the three videos corresponding to the three maps in which the robot had t
 ________________________________________________________________________________________
 ## Conclusions
 
+This project has been extremely valuable and interesting. We have learned how to implement a PID controller for a mobile robot to navigate through mazes, how to process LIDAR data to detect obstacles and measure distances, and how to combine sensor information with control algorithms to achieve smooth and reliable motion.
+
+In parallel, we also improved our skills in Python programming, version control with Git, and using the Linux environment, which were essential for managing the project and working effectively with ROS2.
+
+Overall, the project has been very complete and challenging. It has also given us insight into robot behavior in real environments.
+
+We found the experience highly rewarding, as it provided both technical learning and practical problem-solving skills, making the project engaging.
