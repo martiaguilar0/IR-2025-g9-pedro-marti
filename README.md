@@ -232,9 +232,12 @@ ________________________________________________________________________________
 ## Result
 
 Below, the three videos corresponding to the three maps in which the robot had to navigate are attached:
-- [MAP 1](https://drive.google.com/file/d/1nYyqDzvi8mtQTIMkQfssEf0v9_7DjhVQ/view?usp=drive_link)
-- [MAP 2](https://drive.google.com/file/d/1nYyqDzvi8mtQTIMkQfssEf0v9_7DjhVQ/view?usp=drive_link)
-- [MAP 3](https://drive.google.com/file/d/1nYyqDzvi8mtQTIMkQfssEf0v9_7DjhVQ/view?usp=drive_link)
+<p>Below, the three videos corresponding to the three maps in which the robot had to navigate are attached:</p>
+<ul>
+  <li><a href="https://drive.google.com/file/d/1nYyqDzvi8mtQTIMkQfssEf0v9_7DjhVQ/view?usp=drive_link" target="_blank">MAP 1</a></li>
+  <li><a href="https://drive.google.com/file/d/1nYyqDzvi8mtQTIMkQfssEf0v9_7DjhVQ/view?usp=drive_link" target="_blank">MAP 2</a></li>
+  <li><a href="https://drive.google.com/file/d/1nYyqDzvi8mtQTIMkQfssEf0v9_7DjhVQ/view?usp=drive_link" target="_blank">MAP 3</a></li>
+</ul>
 
 ________________________________________________________________________________________
 ## Conclusions
